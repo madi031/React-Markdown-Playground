@@ -22,7 +22,7 @@ class InputEditor extends Component {
 				<textarea
           className='form-control'
 					onChange={this.handleChange}
-          rows='40'
+          rows='35'
 					value={this.state.value}
 				/>
 			</div>
